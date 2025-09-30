@@ -17,7 +17,7 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
 2. Compact & cost-effective design
 
     • The guider and the control computer are integrated into a single form factor.
-    • The system is designed to be budget-friendly, using widely available components while delivering      performance at par with commercial astro-computers.
+    • The system is designed to be budget-friendly, using widely available components while delivering performance at par with commercial astro-computers.
 
 3. Future expandability
 
@@ -29,8 +29,6 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
     • Provides GoTo mount control for telescope pointing.
     • Can act as a “single box” solution whether you’re observing visually or imaging.
 
-INDIGO Sky with ccd RPi
+## INDIGO Sky with ccd RPi
 
-RaspberryPI image with a pre-configured INDIGO server.
-
-This version of OS comes bundled with CCD RPi driver along with the stock drivers that come with the original INDIGO Sky OS.
+RaspberryPI image with a pre-configured INDIGO server. This version of OS comes bundled with CCD RPi driver along with the stock drivers that come with the original INDIGO Sky OS.
