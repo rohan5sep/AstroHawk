@@ -16,8 +16,8 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
 
 2. Compact & cost-effective design
 
-    • The guider and the control computer are integrated into a single form factor.
-    • The system is designed to be budget-friendly, using widely available components while delivering performance at par with commercial astro-computers.
+    1. The guider and the control computer are integrated into a single form factor.
+    2. The system is designed to be budget-friendly, using widely available components while delivering performance at par with commercial astro-computers.
 
 3. Future expandability
 
