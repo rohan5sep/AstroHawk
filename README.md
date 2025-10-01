@@ -12,7 +12,7 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
 
 1. Simplify cabling
 
-    • Instead of connecting the guide camera over USB, the system uses the CSI (Camera Serial Interface) port of the Raspberry Pi, reducing reliance on extra hubs and ptentially minimizing issues caused by snagging cable.
+    1. Instead of connecting the guide camera over USB, the system uses the CSI (Camera Serial Interface) port of the Raspberry Pi, reducing reliance on extra hubs and ptentially minimizing issues caused by snagging cable.
 
 2. Compact & cost-effective design
 
