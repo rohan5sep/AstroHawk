@@ -29,6 +29,36 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
     1. Provides GoTo mount control for telescope pointing.
     2. Can act as a “single box” solution whether you’re observing visually or imaging.
 
+## Vision
+
+The end result is a self-contained guiding and control hub that mounts directly on the telescope, minimizes external cabling, and makes setup in the field faster and more reliable. It should offer the usability of commercial astro-stations but with the flexibility and affordability of a DIY build.
+
+## Technical Architecture (Conceptual Block Diagram)
+
+          ┌──────────────────────────────────────┐
+          │           Power Input (12V DC)       │
+          └───────────────┬──────────────────────┘
+                          │
+                ┌─────────┴─────────┐
+                │   Power Module    │
+                │  (Regulation +    │
+                │   12V DC outputs) │
+                └─────────┬─────────┘
+                          │
+            ┌─────────────┴────────────────┐
+            │     Raspberry Pi (Core)      │
+            │                              │
+            │ • CSI port → Guide Camera    │
+            │ • USB/Ethernet → Mount Ctrl  │
+            │ • WiFi/SSH → Remote Control  │
+            │ • GPIO → Future sensors      │
+            └─────────────┬────────────────┘
+                          │
+              ┌───────────┴───────────┐
+              │    Telescope Mount    │
+              │  (GoTo + Guiding I/F) │
+              └───────────────────────┘
+
 ## INDIGO Sky with ccd RPi
 
 RaspberryPI image with a pre-configured INDIGO server. This version of OS comes bundled with CCD RPi driver along with the stock drivers that come with the original INDIGO Sky OS.
