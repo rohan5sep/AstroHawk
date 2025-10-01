@@ -21,13 +21,13 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
 
 3. Future expandability
 
-    • Planned support for 12V DC power ports to power accessories directly from the guider unit.
-    • Modular design to add or swap sensors and cameras as needed.
+    1. Planned support for 12V DC power ports to power accessories directly from the guider unit.
+    2. Modular design to add or swap sensors and cameras as needed.
 
 4. Dual use: astrophotography & visual observing
 
-    • Provides GoTo mount control for telescope pointing.
-    • Can act as a “single box” solution whether you’re observing visually or imaging.
+    1. Provides GoTo mount control for telescope pointing.
+    2. Can act as a “single box” solution whether you’re observing visually or imaging.
 
 ## INDIGO Sky with ccd RPi
 
