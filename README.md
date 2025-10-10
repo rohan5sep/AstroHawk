@@ -20,22 +20,22 @@ One of the biggest challenges in astrophotography is the cable mess—USB hubs, 
 
 ### Simplify cabling
 
-    1. Instead of connecting the guide camera over USB, the system uses the CSI (Camera Serial Interface) port of the Raspberry Pi, reducing reliance on extra hubs and potentially minimizing issues caused by snagging cable.
+- Instead of connecting the guide camera over USB, the system uses the CSI (Camera Serial Interface) port of the Raspberry Pi, reducing reliance on extra hubs and potentially minimizing issues caused by snagging cable.
 
 ### Compact & cost-effective design
 
-    1. The guider and the control computer are integrated into a single form factor.
-    2. The system is designed to be budget-friendly, using widely available components while delivering performance at par with commercial astro-computers.
+- The guider and the control computer are integrated into a single form factor.
+- The system is designed to be budget-friendly, using widely available components while delivering performance at par with commercial astro-computers.
 
 ### Future expandability
 
-    1. Planned support for 12V DC power ports to power accessories directly from the guider unit.
-    2. Modular design to add or swap sensors and cameras as needed.
+- Planned support for 12V DC power ports to power accessories directly from the guider unit.
+- Modular design to add or swap sensors and cameras as needed.
 
 ### Dual use: astrophotography & visual observing
 
-    1. Provides GoTo mount control for telescope pointing.
-    2. Can act as a “single box” solution whether you’re observing visually or imaging.
+- Provides GoTo mount control for telescope pointing.
+- Can act as a “single box” solution whether you’re observing visually or imaging.
 
 ## Vision
 
