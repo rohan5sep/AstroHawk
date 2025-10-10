@@ -1,6 +1,14 @@
-# AstroHawk
+# Raspberry Pi based inbuilt guider-computer (AstroHawk)
 
-DIY Astro-Station with Inbuilt Guider
+- [Raspberry Pi based inbuilt guider-computer (AstroHawk)](#raspberry-pi-based-inbuilt-guider-computer-astrohawk)
+  - [Introduction](#introduction)
+  - [Motivation](#motivation)
+  - [Goals](#goals)
+  - [Vision](#vision)
+  - [Technical Architecture (Conceptual Block Diagram)](#technical-architecture-conceptual-block-diagram)
+  - [INDIGO Sky with ccd RPi](#indigo-sky-with-ccd-rpi)
+
+## Introduction
 
 This project is my attempt to design and build a compact, low-cost astrophotography station that combines a guider and a mount computer into a single unit.
 
