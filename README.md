@@ -10,7 +10,10 @@
     - [Dual use: astrophotography & visual observing](#dual-use-astrophotography--visual-observing)
   - [Vision](#vision)
   - [Technical Architecture (Conceptual Block Diagram)](#technical-architecture-conceptual-block-diagram)
-  - [INDIGO Sky with ccd RPi](#indigo-sky-with-ccd-rpi)
+  - [HQ camera panel](#hq-camera-panel)
+  - [NOIR camera case](#noir-camera-case)
+  - [Software](#software)
+    - [INDIGO Sky with ccd RPi](#indigo-sky-with-ccd-rpi)
 
 ## Introduction
 
@@ -71,6 +74,19 @@ The end result is a self-contained guiding and control hub that mounts directly 
               │  (GoTo + Guiding I/F) │
               └───────────────────────┘
 
-## INDIGO Sky with ccd RPi
+## HQ camera panel
 
-RaspberryPI image with a pre-configured INDIGO server. This version of OS comes bundled with CCD RPi driver along with the stock drivers that come with the original INDIGO Sky OS.
+The panel is desined to work with [this](https://www.printables.com/model/1050438-case-for-raspberry-pi5-geekworm-x1001-hat-nvme-ssd) case.
+
+![Finished Product](Resources/HQCameraCase.jpg)
+![HQ Camera Panel](Resources/HQCameraPanel.png)
+
+## NOIR camera case
+
+- TBD
+
+## Software
+
+### INDIGO Sky with ccd RPi
+
+RaspberryPi image with a pre-configured INDIGO server. This version of OS comes bundled with CCD RPi driver along with the stock drivers that come with the original INDIGO Sky OS.
