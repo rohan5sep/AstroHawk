@@ -13,6 +13,7 @@
   - [HQ camera panel](#hq-camera-panel)
   - [NOIR camera case](#noir-camera-case)
   - [Software](#software)
+    - [Indigo ccd driver for Raspberry Pi Camera](#indigo-ccd-driver-for-raspberry-pi-camera)
     - [INDIGO Sky with ccd RPi](#indigo-sky-with-ccd-rpi)
 
 ## Introduction
@@ -86,6 +87,12 @@ The panel is desined to work with [this](https://www.printables.com/model/105043
 - TBD
 
 ## Software
+
+### Indigo ccd driver for Raspberry Pi Camera
+
+The driver code is submited to the [indigo](https://github.com/indigo-astronomy/indigo) repository. Please note that the driver is added there as an optional driver and therefore the binaries are not being distributed in the official indigo distributions. The best way to use the driver is to install the custom OS that includes required binaries. I have included the custom OS in the downloads sections.
+
+Alternatively, the driver code can be built as follows -- TBD
 
 ### INDIGO Sky with ccd RPi
 
