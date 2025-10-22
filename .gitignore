@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# see what will be removed (optional)
+find . -name .DS_Store -print
+
+# drop them from the index while keeping the files on disk
+git rm --cached -r .DS_Store
